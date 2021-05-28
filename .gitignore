@@ -1,0 +1,6 @@
+# MEMO: hide environment variables such lik HUBOT_SLACK_TOKEN and HUBOT_GITHUB_TOKEN used for integration with slack and github
+# e.g
+# HUBOT_SLACK_TOKEN=xxxxxx
+# HUBOT_GITHUB_TOKEN=xxxxxx 
+# USERNAME=xxxxxx
+env-variables.env

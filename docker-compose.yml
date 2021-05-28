@@ -7,4 +7,6 @@ services:
       dockerfile: Dockerfile
     volumes: 
       - ./app:/app
+    env_file: 
+      - env-variables.env
     tty: true
