@@ -4,6 +4,18 @@
 
 - Node.js ... 16.1.0
 
+## Setup
+
+When you use this repository with Docker and Docker Compose,   
+please create `env-variables.env` to define environment variables.  
+Then it is load by starting the container.
+
+```
+HUBOT_SLACK_TOKEN=xxxxxx
+HUBOT_GITHUB_TOKEN=xxxxxx 
+USERNAME=xxxxxx
+```
+
 
 ## How to use with slack in local
 

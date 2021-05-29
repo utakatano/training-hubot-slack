@@ -10,7 +10,7 @@ const displayVariables = (data) => {
 }
 
 module.exports = (robot) => {
-  robot.hear(/info/i, (res) => {
+  robot.hear(/variables/i, (res) => {
     res.reply(displayVariables(process.env))
   })
 }
