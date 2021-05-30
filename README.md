@@ -18,6 +18,14 @@ HUBOT_GITHUB_TOKEN=xxxxxx
 USERNAME=xxxxxx
 ```
 
+If you use it with your local machine, please set environment variables.
+
+```sh
+export HUBOT_SLACK_TOKEN=xxxxxx
+export HUBOT_GITHUB_TOKEN=xxxxxx 
+export USERNAME=xxxxxx
+```
+
 ## How to use with slack in local
 
 1. run below command
@@ -26,7 +34,7 @@ USERNAME=xxxxxx
 HUBOT_SLACK_TOKEN=$HUBOT_SLACK_TOKEN ./bin/hubot -a slack
 ```
 
-or run `npm start` as same command is written in package.json
+or you can run `npm start` as same command is written in package.json
 
 2. please type in the hubot DM or channel inviting the hubot.
 
