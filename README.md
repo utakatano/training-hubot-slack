@@ -6,7 +6,9 @@
 
 ## Setup
 
-When you use this repository with Docker and Docker Compose,   
+1. move into `app/myhubot` directory and run `npm install`.
+
+2. When you use this repository with Docker and Docker Compose,   
 please create `env-variables.env` to define environment variables.  
 Then it is load by starting the container.
 
@@ -16,7 +18,6 @@ HUBOT_GITHUB_TOKEN=xxxxxx
 USERNAME=xxxxxx
 ```
 
-
 ## How to use with slack in local
 
 1. run below command
@@ -24,6 +25,8 @@ USERNAME=xxxxxx
 ```sh
 HUBOT_SLACK_TOKEN=$HUBOT_SLACK_TOKEN ./bin/hubot -a slack
 ```
+
+or run `npm start` as same command is written in package.json
 
 2. please type in the hubot DM or channel inviting the hubot.
 
